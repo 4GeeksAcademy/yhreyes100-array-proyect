@@ -8,6 +8,12 @@ for(var i=0;i<pronoun.length;i++)
     for(var k=0;k<noun.length;k++)
       for(var l=0;l<dom.length;l++)
           console.log(pronoun[i]+adj[j]+noun[k]+dom[l]);
+console.log("-------------------forof-------------------------");
+for(var ii of pronoun)
+  for(var jj of adj)
+    for(var kk of noun)
+      for(var ll of dom)
+          console.log(ii+jj+kk+ll);
 
 console.log("-------------------forEach--------------------");
 
